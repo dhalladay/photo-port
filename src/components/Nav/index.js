@@ -27,7 +27,7 @@ function Nav() {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a href="#about" onClick={() => handleClick()}>
+            <a href="#about" data-testid="about" onClick={() => handleClick()}>
               About me
             </a>
           </li>
