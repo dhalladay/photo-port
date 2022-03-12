@@ -17,5 +17,3 @@ describe('About component renders', () => {
     expect(asFragment()).toMatchSnapshot();
   });
 })
-
-export default About;
